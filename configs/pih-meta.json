@@ -1,0 +1,22 @@
+{
+    "env_name": "pih-meta",
+    "n_train_tasks": 40,
+    "n_eval_tasks": 10,
+    "env_params": {
+        "n_tasks": 50
+    }
+    ,
+    "algo_params": {
+        "num_initial_steps": 500,
+        "num_steps_prior": 500,
+        "num_steps_posterior": 0,
+        "num_extra_rl_steps_posterior": 500,
+        "num_train_steps_per_itr": 2000,
+        "num_steps_per_eval": 200,
+        "max_path_length": 50,
+        "reward_scale": 100.0,
+        "kl_lambda": 0.1,
+        "embedding_batch_size": 256,
+        "embedding_mini_batch_size": 256
+    }
+}
